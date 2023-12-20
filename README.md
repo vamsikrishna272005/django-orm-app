@@ -7,7 +7,9 @@ To develop a Django application to store and retrieve data from a database using
 
 Include your ER diagram here
 
-![ER diagram](./ERdiagram.jpeg)
+
+![ERdiagram](https://github.com/vamsikrishna272005/django-orm-app/assets/147477015/d12e448d-eacc-404a-8ff8-43462395b093)
+
 
 ## DESIGN STEPS
 
@@ -53,7 +55,8 @@ admin.site.register(Student,StudentAdmin)
 
 ## OUTPUT
 
-![Django output](./djangooutput.png)
+![output](https://github.com/vamsikrishna272005/django-orm-app/assets/147477015/bfbaa4e3-015f-4a8c-b7c4-832dfd2e66b0)
+
 
 
 ## RESULT
