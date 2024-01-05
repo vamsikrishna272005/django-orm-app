@@ -28,7 +28,7 @@ Write our code in models.py and modify settings.py and admin.py.Run Django proje
 ## PROGRAM
 
 ### models.py
-
+```
 from django.db import models
 from django.contrib import admin
 
@@ -43,15 +43,15 @@ class Student (models.Model):
 
 class StudentAdmin(admin.ModelAdmin):
     list_display=('referencenumber','name','age','email','mobileno')
-
+```
 ### admin.py
-
+```
 from django.contrib import admin
 from .models import Student,StudentAdmin
 
 #### Register your models here.
 admin.site.register(Student,StudentAdmin)
-
+```
 
 ## OUTPUT
 
